@@ -1,5 +1,5 @@
 # Six Easy Pieces
-Sample code for one-day workshop
+Sample code for one-day workshop.
 
 ## Modules
 
@@ -46,4 +46,15 @@ git --version
 ### Install Visual Studio Code
 
 Go to the [Visual Studio Code site](https://code.visualstudio.com/) and use the Download for Windows link that appears if you are using a Windows machine, and download and run the installer. Installation will take a few minutes at most.
+
+### Install Yeoman generators
+
+We will be using a few Yeoman generators during the day. You can install them as needed, or do so now:
+
+```
+npm install -g @microsoft/generator-sharepoint
+npm install -g generator-teams
+npm install -g generator-office
+```
+
 
