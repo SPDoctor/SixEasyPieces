@@ -1,4 +1,4 @@
-# SixEasyPieces
+# Six Easy Pieces
 Sample code for one-day workshop
 
 ## Modules
@@ -42,4 +42,8 @@ Download 2.24.0 for Windows](https://git-scm.com/download/win) (or later version
 ```
 git --version
 ```
+
+### Install Visual Studio Code
+
+Go to the [Visual Studio Code site](https://code.visualstudio.com/) and use the Download for Windows link that appears if you are using a Windows machine, and download and run the installer. Installation will take a few minutes at most.
 
