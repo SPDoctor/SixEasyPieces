@@ -57,5 +57,11 @@ npm install -g generator-teams
 npm install -g generator-office
 ```
 
+## Clone this repository
 
+Once you have Git installed you can open a command window in the directory where you want to install the samples and run the command:
+
+```
+git clone https://github.com/SPDoctor/SixEasyPieces.git
+```
 
