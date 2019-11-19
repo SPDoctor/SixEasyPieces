@@ -1,0 +1,39 @@
+Category: Customer + Contact Management, Sub-category: Communications, Productivity
+
+Detailed description:
+
+Do you find yourself copying and pasting message contents over and over as you deal with your e-mail inbox? You have some standard replies, but you're not a marketing robot, You need to look at each one and respond individually, but you could do with a little help...
+
+That's where Reactor comes in. We provide you with some standard replies, and we scan the message to make our best guess at the right one. Now it's over to you: pick a different template if needed and then hit the Respond button which will open the New Message dialog with the template loaded. Now you can hit send or modify the message as required to give it that personal touch.
+
+
+New in Version 1.3:
+
+UI improvements
+Bug fixes
+Fixes for Office 2016 compatibility
+Business nonsense generator
+
+
+
+Featured app description:
+
+Email response tool
+
+Brief description:
+
+Reactor helps you manage your inbox by providing pre-built template e-mail responses which you can than fine-tune to give that personal touch. Reactor saves you time by doing the heavy lifting while allowing you to add that personal touch.
+
+Keywords:
+
+email,respond,mail,message,exchange,responder,template,email template
+
+
+Link: 
+
+
+Short link: 
+
+
+
+Note: If you lose the password for the web application, go to Azure admin page, select flosim-reactor, dashboard, and click on the link "Download the publish profile". This file contains the connection strings and password to upload content.

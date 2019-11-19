@@ -1,0 +1,13 @@
+ReactorWeb/obj/
+packages/
+Reactor.v12.suo
+Assets/Thumbs.db
+Reactor/bin/
+Reactor/obj/
+ReactorWeb/bin/
+ReactorWeb/ReactorWeb.csproj.user
+Reactor/Reactor.csproj.user
+Reactor/pkgobj/Release/AppManifest.xml
+ReactorWeb/Images/Thumbs.db
+.vs/config/applicationhost.config
+Assets/Reactor.mp4

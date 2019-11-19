@@ -1,0 +1,3 @@
+Software Copyright © Flow Simulation Ltd. 2015
+
+This software is supplied 'as is' and all use is at your own risk. Flow Simulation Ltd. provides no warranties of any kind, express or implied, including any implied warranties as to fitness for a particular purpose, merchantability or non-infringement of proprietary rights. Under no circumstances will Flow Simulation Ltd. be liable for any direct, indirect, incidental, consequential or other damages arising from the use of this software.
