@@ -1,0 +1,161 @@
+{
+    "$schema": "schema.json",
+    "actions": [
+        {
+            "verb": "applyTheme",
+            "themeName": "Cabana"
+        },
+        {
+            "verb": "setSiteLogo",
+            "url": "https://www.spdoctor.com/images/BannerLogo_150x50.png"
+        },
+        {
+            "verb": "createSPList",
+            "listName": "Customer Tracking",
+            "templateType": 100,
+            "subactions": [
+                {
+                    "displayName": "Text Field",
+                    "isRequired": false,
+                    "addToDefaultView": true,
+                    "fieldType": "Text",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "displayName": "Number Field",
+                    "isRequired": true,
+                    "addToDefaultView": true,
+                    "fieldType": "Number",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "displayName": "User Field",
+                    "isRequired": true,
+                    "addToDefaultView": true,
+                    "fieldType": "User",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "displayName": "Note Field",
+                    "isRequired": false,
+                    "addToDefaultView": false,
+                    "fieldType": "Note",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "displayName": "Boolean Field",
+                    "isRequired": false,
+                    "addToDefaultView": false,
+                    "fieldType": "Boolean",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "displayName": "Date Time Field",
+                    "isRequired": false,
+                    "addToDefaultView": false,
+                    "fieldType": "DateTime",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "verb": "setDescription",
+                    "description": "Custom list to illustrate SharePoint site scripting"
+                },
+                {
+                    "verb": "setTitle",
+                    "title": "CustomerTracking"
+                }
+            ]
+        },
+        {
+            "verb": "createSPList",
+            "listName": "Custom Library",
+            "templateType": 101,
+            "subactions": [
+                {
+                    "displayName": "Text Field",
+                    "isRequired": false,
+                    "addToDefaultView": true,
+                    "fieldType": "Text",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "displayName": "Number Field",
+                    "isRequired": true,
+                    "addToDefaultView": true,
+                    "fieldType": "Number",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "displayName": "User Field",
+                    "isRequired": true,
+                    "addToDefaultView": true,
+                    "fieldType": "User",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "displayName": "Note Field",
+                    "isRequired": false,
+                    "addToDefaultView": false,
+                    "fieldType": "Note",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "displayName": "Boolean Field",
+                    "isRequired": false,
+                    "addToDefaultView": false,
+                    "fieldType": "Boolean",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "displayName": "Date Time Field",
+                    "isRequired": false,
+                    "addToDefaultView": false,
+                    "fieldType": "DateTime",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "displayName": "Text A Field",
+                    "isRequired": false,
+                    "addToDefaultView": true,
+                    "fieldType": "Text",
+                    "enforceUnique": false,
+                    "verb": "addSPField"
+                },
+                {
+                    "displayName": "Text A Field",
+                    "verb": "deleteSPField"
+                },
+                {
+                    "verb": "setDescription",
+                    "description": "Document library to illustrate SharePoint site scripting"
+                }
+            ]
+        },
+        {
+            "verb": "addNavLink",
+            "url": "/Custom Library",
+            "displayName": "Custom Library",
+            "isWebRelative": true
+        },
+        {
+            "verb": "addNavLink",
+            "url": "/Lists/Custom List",
+            "displayName": "Custom List",
+            "isWebRelative": true
+        }
+    ],
+    "bindata": {},
+    "version": 1
+}
