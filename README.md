@@ -26,4 +26,20 @@ The installation will only take a couple of minutes. You can check it has all wo
 node --version
 ```
 
+### Install Gulp and Yeoman
+
+From a command window run the command:
+
+```
+npm install -g gulp yo
+```
+
+### Install Git Source Control
+
+Go to the site [git-scm.com](git-scm.com) and install the Git command line tool. If you are using a Windows machine then the link [
+Download 2.24.0 for Windows](https://git-scm.com/download/win) (or later version) should appear. Once you have downloaded the installer you can verify that you have Git installed with the command:
+
+```
+git --version
+```
 
