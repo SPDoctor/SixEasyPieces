@@ -56,6 +56,14 @@ npm install -g @microsoft/generator-sharepoint
 npm install -g generator-teams
 npm install -g generator-office
 ```
+### Check PowerShell version
+
+From PowerShell window run the command:
+```
+$PSversionTable
+```
+
+It should be version 5.x (or later). If not, upgrade your PowerShell version which will make it easier to use PowerShell modules.
 
 ## Clone this repository
 
