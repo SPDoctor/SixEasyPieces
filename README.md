@@ -63,7 +63,26 @@ From PowerShell window run the command:
 $PSversionTable
 ```
 
-It should be version 5.x (or later). If not, upgrade your PowerShell version which will make it easier to use PowerShell modules.
+It should be version 5.x (or later). If not, upgrade your PowerShell version which will make it easier to use PowerShell modules, e.g. (from **Administrator** PowerShell window):
+
+```
+Install-Module -Name Microsoft.Online.SharePoint.PowerShell
+```
+
+## Test everything is working
+
+Build a "Hello World" SharePoint Framework web part by running the Yeoman generator:
+
+```
+yo @microsoft/sharepoint
+gulp serve
+```
+
+The browser should be launched (eventually) with the local workbench and you can add the webpart to the canvas in the fake SharePoint site. If you get certificate errors, you may need to run:
+
+```
+gulp trust-dev-cert
+```
 
 ## Clone this repository
 
