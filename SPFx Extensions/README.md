@@ -1,6 +1,6 @@
 # SPFx Extensions
 
-In addition to the sample SPFxExt, you can clone the OfficeDev Training repo on SharePoint Framework extensions:
+In addition to the sample SPFxExt, you can clone the [OfficeDev Training repo on SharePoint Framework extensions](https://github.com/SharePoint/sp-dev-training-spfx-extensions):
 
 ```
 git clone https://github.com/SharePoint/sp-dev-training-spfx-extensions.git
