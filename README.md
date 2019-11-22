@@ -92,3 +92,13 @@ Once you have Git installed you can open a command window in the directory where
 git clone https://github.com/SPDoctor/SixEasyPieces.git
 ```
 
+## Useful links:
+
+* Office 365 Dev Center: https://dev.office.com/
+* Documentation: https://developer.microsoft.com/office/docs
+* My Office Add-ins course on LinkedIn: https://www.linkedin.com/learning/microsoft-office-add-ins-for-developers
+* Samples: https://github.com/OfficeDev
+* My blog: http://spdoctor.com/
+* Office 365 Developer Program: https://developer.microsoft.com/office/dev-program
+* Office 365 Blogs: https://developer.microsoft.com/en-us/office/blogs/technology/add-ins/
+
