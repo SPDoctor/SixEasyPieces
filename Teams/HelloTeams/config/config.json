@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-teams-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloTeams/HelloTeamsWebPart.js",
+          "manifest": "./src/webparts/helloTeams/HelloTeamsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloTeamsWebPartStrings": "lib/webparts/helloTeams/loc/{locale}.js"
+  }
+}
