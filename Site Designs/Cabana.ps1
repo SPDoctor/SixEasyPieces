@@ -32,8 +32,8 @@ $paletteCabana = @{
 
 Add-SPOTheme -Identity "Cabana" -Palette $paletteCabana -IsInverted $false
 
-$content = Get-Content '.\Cabana.json' �Raw
+$content = Get-Content '.\Cabana.json' -Raw
  
-$script = Add-SPOSiteScript �Content $content -Title "Cabana Site Script�
+$script = Add-SPOSiteScript -Content $content -Title "Cabana Site Script"
 
 Add-SPOSiteDesign -Title "Cabana Site Design" -WebTemplate "64" -SiteScripts $script.Id -Description "Cabana site with list and theme"
